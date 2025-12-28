@@ -514,9 +514,9 @@ fvm flutter build appbundle --flavor 101101 -t "lib/main_flavors/main_olevelbio.
 
 **[Your Name]**
 
-- 📧 Email: [m.talhaarshad98@gmail.com]
-- 💼 LinkedIn: [linkedin.com/in/tvlhv]
-- 🐙 GitHub: [github.com/mtalha101]
+- 📧 Email: m.talhaarshad98@gmail.com
+- 💼 LinkedIn: https://linkedin.com/in/tvlhv
+- 🐙 GitHub: https://github.com/mtalha101
 
 ---
 
