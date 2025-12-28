@@ -1,0 +1,133 @@
+name: mcqslearn
+description: A new Flutter project.
+
+publish_to: "none"
+version: 12.3.0+12
+
+environment:
+  sdk: ">=3.1.5 <4.0.0"
+  flutter: ">=3.3.9"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_native_splash: ^2.2.16
+
+  # Firebase Packages
+  firebase_core: ^3.6.0
+  firebase_crashlytics: ^4.1.3
+
+  supabase_flutter: ^2.3.4
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  flutter_svg: ^2.0.9
+  dots_indicator: ^3.0.0
+  get_it: ^8.0.0
+  google_sign_in: ^6.2.1
+  sign_in_with_apple: ^6.1.3
+  country: ^4.1.1
+  pin_code_fields: ^8.0.1
+  dartz: ^0.10.1
+  internet_connection_checker: ^1.0.0+1
+  crypto: ^3.0.3
+  simple_animations: ^5.0.2
+  step_progress_indicator: ^1.0.2
+  flutter_html: ^3.0.0-beta.2
+  widgets_to_image: ^1.0.0
+  path_provider: ^2.1.2
+  share_plus: ^10.0.3
+  audioplayers: ^6.1.0
+  jiffy: ^6.2.1
+
+  intl: any
+  table_calendar: ^3.0.0
+  auto_size_text: ^3.0.0
+  flutter_switch: ^0.3.2
+  flutter_local_notifications: ^17.2.3
+  app_settings: ^5.1.1
+  permission_handler: ^11.2.0
+  slack_logger: ^1.0.7
+  device_info_plus: ^11.0.0
+  package_info_plus: ^8.0.3
+  url_launcher: ^6.2.4
+  in_app_review: ^2.0.8
+  purchases_flutter: ^8.1.5
+  shimmer: ^3.0.0
+  showcaseview: ^3.0.0
+  google_mobile_ads: ^5.2.0
+  dotted_border: ^2.1.0
+  lottie: ^3.1.0
+  purchases_ui_flutter: ^8.1.5
+  app_tracking_transparency: ^2.0.4
+  firebase_analytics: ^11.3.3
+  timeago: ^3.6.1
+  flutter_timezone: ^3.0.1
+  pull_to_refresh: ^2.0.0
+  bad_words: ^0.3.0
+  flutter_quill: ^11.4.2
+  markdown_quill: ^4.2.0
+  quill_json_to_html:
+    path: ./packages/quill_json_to_html-1.0.1
+  cupertino_icons: ^1.0.8
+  flutter_dotenv: ^5.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^5.0.0
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - images/avatars/
+    - icons/
+    - icons/dialog/
+    - icons/home/
+    - icons/settings/
+    - icons/badges/
+    - audio/
+    - lottie/
+    - shorebird.yaml
+    - .env.config
+    - .env.prod
+    - .env.dev
+
+  fonts:
+    - family: Recoleta
+      fonts:
+        - asset: fonts/Recoleta-Thin.ttf
+          weight: 100
+        - asset: fonts/Recoleta-Light.ttf
+          weight: 300
+        - asset: fonts/Recoleta-Regular.ttf
+          weight: 400
+        - asset: fonts/Recoleta-Medium.ttf
+          weight: 500
+        - asset: fonts/Recoleta-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Recoleta-Bold.ttf
+          weight: 700
+        - asset: fonts/Recoleta-Black.ttf
+          weight: 900
+    - family: THICCCBOI
+      fonts:
+        - asset: fonts/THICCCBOI-Thin.ttf
+          weight: 100
+        - asset: fonts/THICCCBOI-Light.ttf
+          weight: 300
+        - asset: fonts/THICCCBOI-Regular.ttf
+          weight: 400
+        - asset: fonts/THICCCBOI-Medium.ttf
+          weight: 500
+        - asset: fonts/THICCCBOI-SemiBold.ttf
+          weight: 600
+        - asset: fonts/THICCCBOI-Bold.ttf
+          weight: 700
+        - asset: fonts/THICCCBOI-ExtraBold.ttf
+          weight: 800
+        - asset: fonts/THICCCBOI-Black.ttf
+          weight: 900
