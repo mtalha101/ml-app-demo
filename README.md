@@ -512,7 +512,7 @@ fvm flutter build appbundle --flavor 101101 -t "lib/main_flavors/main_olevelbio.
 
 ## 📬 Contact
 
-**[Your Name]**
+**Muhammad Talha Arshad**
 
 - 📧 Email: m.talhaarshad98@gmail.com
 - 💼 LinkedIn: https://linkedin.com/in/tvlhv
